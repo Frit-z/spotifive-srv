@@ -1,0 +1,26 @@
+{
+  "name": "spotifive-server",
+  "version": "0.0.1",
+  "description": "SpotiFive Reload node.js server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg index.js"
+  },
+  "pkg": {
+    "assets": [],
+    "targets": [
+      "latest"
+    ]
+  },
+  "author": "IceHax",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-ipfilter": "^1.1.0",
+    "spotify-authentication": "^0.3.0",
+    "spotify-web-api-node": "^4.0.0"
+  }
+}
